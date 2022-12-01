@@ -1,8 +1,11 @@
-# DataStructures
-implementation of data Structure using `C Language`
+# DSA
+implementation of data Structure and algorithms `C Language`
 ---
-:white_check_mark: **linked list**
-* [ ] stack
-* [ ] queue
-* [ ] dqueue
-* [ ] binary tree
+<ul>
+<li><h3>Datastructures</h3></li>
+:white_check_mark: <strong>linked list</trong><br>
+:clipboard: stack<br>
+:clipboard: queue<br>
+:clipboard: dqueue<br>
+:clipboard: binary tree<br>
+</ul>
