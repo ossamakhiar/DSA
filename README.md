@@ -14,7 +14,7 @@ implementation of data Structure and algorithms `C Language`
   <li>
     <h3>Algorithms</h1>
     <ul>
-    <li>sorting</li>
+    <li><strong>sorting</strong></li>
       <ul>
         <li>selection sort :white_check_mark:<br></li>
         <li>insertion sort :white_check_mark:<br></li>
