@@ -1,23 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sorting.h                                          :+:      :+:    :+:   */
+/*   bubble_sort.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: okhiar <okhiar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/01 10:23:22 by okhiar            #+#    #+#             */
-/*   Updated: 2022/12/01 13:43:30 by okhiar           ###   ########.fr       */
+/*   Created: 2022/12/01 13:40:08 by okhiar            #+#    #+#             */
+/*   Updated: 2022/12/01 13:41:22 by okhiar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SORTING_H
-# define SORTING_H
+#include "sorting.h"
 
-# include <stdio.h>
+void	bubble_sort(int tab[], int size)
+{
+	int	i;
+	int	j;
 
-void	ft_swap(int *a, int *b);
-void	selection_sort(int tab[], int size);
-void	insertion_sort(int tab[], int size);
-void	bubble_sort(int tab[], int size);
-
-#endif
+	i = 0;
+	while (i < size - 1)
+	{
+		j = i + 1;
+        while (j < size)
+		{
+			if (tab[i] > tab[j])
+				ft_swap(&tab[i], &tab[j]);
+			j++;
+		}
+		i++;
+	}
+}
