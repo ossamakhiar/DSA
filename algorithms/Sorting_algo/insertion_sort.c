@@ -1,22 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sorting.h                                          :+:      :+:    :+:   */
+/*   insertion_sort.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: okhiar <okhiar@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/01 10:23:22 by okhiar            #+#    #+#             */
-/*   Updated: 2022/12/01 12:57:13 by okhiar           ###   ########.fr       */
+/*   Created: 2022/12/01 12:53:53 by okhiar            #+#    #+#             */
+/*   Updated: 2022/12/01 13:36:55 by okhiar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SORTING_H
-# define SORTING_H
+#include "sorting.h"
 
-# include <stdio.h>
+void	insertion_sort(int tab[], int size)
+{
+	int	i;
+	int	j;
+	int	tmp;
 
-void	ft_swap(int *a, int *b);
-void	selection_sort(int tab[], int size);
-void	insertion_sort(int tab[], int size);
-
-#endif
+	i = 1;
+	while (i < size)
+	{
+		tmp = tab[i];
+		j = i - 1;
+		while (j >= 0 && tab[j] > tmp)
+		{
+			tab[j + 1] = tab[j];
+			j--;
+		}
+		tab[j + 1] = tmp;
+		i++;
+	}
+}
