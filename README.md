@@ -19,6 +19,7 @@ implementation of data Structure and algorithms `C Language`
         <li>selection sort :white_check_mark:<br></li>
         <li>insertion sort :white_check_mark:<br></li>
         <li>bubble sort :white_check_mark:<br></li>
+        <li>quick sort :white_check_mark:<br></li>
         <li>merge sort<br></li>
         <li>heap sort<br></li>
         <li>radix sort<br></li>
