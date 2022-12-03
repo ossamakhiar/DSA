@@ -6,4 +6,4 @@ A "subarray" is a subset of the original array that is contiguous and maintains 
 <h3>Exemple</h3>
 Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]<br>
 Output: 6<br>
-Explanation: The maximum sum subarray goes from index 3 to index 6 with a total sum of 6.
+Explanation: The maximum sum subarray goes from index 3 to index 6 [4, -1, 2, 1] with a total sum of 6.
