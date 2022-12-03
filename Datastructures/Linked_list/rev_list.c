@@ -39,6 +39,6 @@ void reverse_rec(t_list **head, t_list *list)
 		return ;
 	}
 	reverse_rec(head, list->next);
-	list->next-> next = list;
+	list->next->next = list;
 	list->next = 0;
 }
