@@ -1,2 +1,5 @@
 # ignore main function
 algorithms/Sorting_algo/main.c
+
+#ignore drawing file
+draw.tldr
