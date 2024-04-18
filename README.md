@@ -4,22 +4,22 @@ implementation of data Structure and algorithms `C Language`
 <ul>
   <li><h3>Datastructures</h3></li>
   <ul>
-    <li>linked list :white_check_mark:<br></li>
-    <li>stack :on:<br></li>
-    <li>queue :soon:<br></li>
-    <li>dqueue :soon:<br></li>
-    <li>binary tree :soon:<br></li>
-    <li>red black tree :soon:<br></li>
+    <li>linked list<br></li>
+    <li>stack<br></li>
+    <li>queue<br></li>
+    <li>dqueue<br></li>
+    <li>binary tree<br></li>
+    <li>red black tree<br></li>
   </ul>
   <li>
     <h3>Algorithms</h1>
     <ul>
     <li><strong>sorting</strong></li>
       <ul>
-        <li>selection sort :white_check_mark:<br></li>
-        <li>insertion sort :white_check_mark:<br></li>
-        <li>bubble sort :white_check_mark:<br></li>
-        <li>quick sort :white_check_mark:<br></li>
+        <li>selection sort<br></li>
+        <li>insertion sort<br></li>
+        <li>bubble sort<br></li>
+        <li>quick sort<br></li>
         <li>merge sort<br></li>
         <li>heap sort<br></li>
         <li>radix sort<br></li>
